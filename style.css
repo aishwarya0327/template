@@ -1,0 +1,133 @@
+
+
+
+        body{
+          font-family:Arial;
+        }
+
+        /*Navbar Section*/
+        .navbar-inverse .navbar-nav li a{
+          color:#fff;
+          padding:23px 10px;
+        }
+        .navbar-inverse .navbar-brand {
+          color:#fff;
+          padding:23px 0px;
+        }
+        .navbar-inverse .navbar-brand:hover {
+          color:#7891A6;
+        }
+
+        ul.nav a:focus {
+          background-color:#7891A6 !important;
+        }
+        ul.nav a:hover {
+          background-color:#7891A6 !important;
+        }
+
+
+        /*Main Image*/
+        .container-fluid {
+          padding:0;
+          position: relative;
+          text-align: center;
+          color: white;
+          height:500px;
+        }
+        .centered {
+            position: absolute;
+            top: 45%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+          }
+
+          .parallax1{
+            background: url('img/1.jpg') no-repeat center;
+            background-size: cover;
+            background-attachment: fixed;
+            height:620px;
+          }
+          .mbig{
+            font-size:75px;
+            font-weight:700;
+            text-align: center;
+          }
+
+          /*Card Section*/
+          .shift{
+          	margin: 0 40%;
+          }
+          .container .card img{
+          	height: 300px;
+          }
+
+          .card-title{
+          	text-align: center;
+          }
+          .card{
+            padding: 35px;
+          }
+
+          /*Services Parallax*/
+          .cont1{
+              width:100%;
+              margin:0 auto;
+              font-size:24px;
+              position:relative;
+              padding: 0;
+              text-align:center;
+                color:white;
+          }
+          .parallax{
+            background: url('img/7.jpg') no-repeat center;
+            background-size: cover;
+            background-attachment: fixed;
+            height:300px;
+          }
+          .centered1 {
+              position: absolute;
+              top: 45%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+              font-size:20px;
+            }
+            .cont1 .centered1 p{
+				      font-size:13px;
+			       }
+
+            /*Single Card*/
+            .midimg{
+              text-align:center;
+              
+            }
+            .midtext{
+              text-align:center;
+              padding-right:80px;
+              padding-left: 80px;
+            }
+
+            /*Contact Form*/
+            .contactmain{
+              width:100%;
+              margin:0 auto;
+              padding: 0;
+              text-align:center;
+              color:white;
+              padding: 130px;
+          	}
+          .parallax2{
+            background: url('img/9.jpg') no-repeat center;
+            background-size: cover;
+            background-attachment: fixed;
+            height:500px;
+          }
+          
+          /*Footer Section*/
+          .foot{
+          	font-size:12px;
+          	margin-bottom:30px;
+          	margin-top:10px;
+          }
+          
+
+         
