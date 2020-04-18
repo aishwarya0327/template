@@ -11,7 +11,7 @@
 		<script src="https://kit.fontawesome.com/244d7c9d39.js"></script>
 	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	   	<script type="text/javascript" src="js/respond.js"></script>
-	   	
+
   </head>
 
 
@@ -31,7 +31,7 @@
 
               <div class="collapse navbar-collapse navbar-right" id="mynav">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="#homeid">Home Page</a></li>
+                        <li><a href="#homeid">Home Page</a></li>
                         <li><a href="#aboutid">About Us</a></li>
                         <li><a href="#servicesid">Services</a></li>
                         <li><a href="#contactid">Contact Us</a></li>
@@ -116,7 +116,7 @@
 	</div>
 
   <br>
-  
+
 <!--Services Section-->
       <div class="cont1 parallax" id="servicesid">
           <div class="centered1 text-center">
@@ -145,37 +145,37 @@
     </div>
 
 <!--Contact Section-->
-<br>					
+<br>
 	<div class="container-fluid bg-info contactmain parallax2" id="contactid">
 
 			<form class="form-group img-responsive">
 
 				<div class="col-sm-6">
 					<div class="col-sm-12">
-					<h1><strong>Let's Connect</strong></h1>                           
+					<h1><strong>Let's Connect</strong></h1>
 						<div class="col-sm-12">
 							<h3>We would love to help you out</h3>
 							<br>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tempor eros eget eros maximus, ut cursus sem euismod.Donec iaculis tristique odio at consectetur.   </p>                          
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tempor eros eget eros maximus, ut cursus sem euismod.Donec iaculis tristique odio at consectetur.   </p>
 						</div>
 				</div>
-					
+
 				</div>
 				<div class="col-sm-6">
-					<div class="form-group col-sm-9 pull-right">
+					<div class="form-group col-sm-9">
 						<input name="name" type="text"  class="form-control"  placeholder="Name">
 						<br>
 						<input type="email" name="email" class="form-control"  placeholder="Email">
 						<br>
 						<textarea name="message" rows="4" class="form-control" placeholder="Enter your message"></textarea>
 						<br>
-						 <button type="submit" class="btn btn-info" id="contactbutton">Submit</button>  
+						 <button type="submit" class="btn btn-info" id="contactbutton">Submit</button>
 					</div>
-					
-				</div>             
-			</form>    			
+
+				</div>
+			</form>
 	</div>
-				
+
 <!--Footer Section-->
 
  <footer class="text-center text-muted foot">
@@ -189,6 +189,16 @@
  </footer>
 
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <script type='text/javascript'>
+        $(window).load(function(){
+        $("#mynav a").click(function() {
+            $('a').removeClass('active');
+            $(this).addClass("active");
+        });
+        });
+
+</script>
 
   </body>
 
